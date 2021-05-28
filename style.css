@@ -1,0 +1,87 @@
+.origami:hover ol{
+    opacity: 1;
+}
+.origami:hover p{
+    opacity: 1;
+}
+.origami:hover ul{
+    opacity: 1;
+}
+.origami:hover{
+    transform:scale(1.2);
+}
+.origami{
+    font-size: small;
+    background-color:#efefef;
+    width:28%;
+    height: 500px;
+    margin: 5px;
+    padding:3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+h1{
+    color:lightcoral;
+    background-color: dimgray;
+}
+.grid{
+    display: flex;
+    background-color:whitesmoke;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 5px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: whitesmoke;
+    padding: 7.5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin:0px
+}
+.header{
+    margin:0px
+}
+.text{
+    position: absolute;
+}
+.bodyimg{
+    position: relative;
+    color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+
+/*.origami ol{
+    position: absolute;
+    opacity: 0;
+}
+.origami p{
+    position: absolute;
+    opacity: 0;
+}
+.origami ul{
+    position:absolute;
+    opacity: 0;
+}*/
+.origami ol{
+    opacity: 0;
+}
+.origami p{
+    opacity: 0;
+}
+.origami ul{
+    opacity: 0;
+}
+/*.image{
+    position:absolute;
+}*/
